@@ -1,8 +1,8 @@
-- name: PI: Haroon R. Lone
+- name:  Haroon R. Lone
   photo: haroon.png
   info: Assistant Professor, Department of EECS, IISER Bhopal  
         hello hello 
-  coordinates: 203, 4D building, IISER Bhopal, Bhopal, India
+  #coordinates: 203, 4D building, IISER Bhopal, Bhopal, India
   github: https://github.com/loneharoon
   email: haroon@iiserb.ac.in
   scholar: https://scholar.google.com/citations?user=OjujmUAAAAAJ&hl=en
