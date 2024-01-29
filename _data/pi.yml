@@ -1,0 +1,24 @@
+- name: PI: Haroon R. Lone
+  photo: haroon.png
+  info: Assistant Professor, Department of EECS, IISER Bhopal  
+        hello hello 
+  coordinates: 203, 4D building, IISER Bhopal, Bhopal, India
+  github: https://github.com/loneharoon
+  email: haroon@iiserb.ac.in
+  scholar: https://scholar.google.com/citations?user=OjujmUAAAAAJ&hl=en
+  #researchgate: https://www.researchgate.net/
+  #cv: cv/cv.pdf
+  #Change the number below to the number of "educations" you have (up to 6)
+  number_educ: -1
+  education1: "(2019) Ph.D. Computer Science & Engineering, IIIT Delhi"
+  education2: "(2013) M.S. (Research), National Institute of Technology Rourkela"
+  # education3: 
+  # education4: 
+  # education5: 
+  # education6: 
+  #education1short: (1942) Ph.D. Physics, Princeton
+  #education2short: (1939) B.S. Physics, MIT
+  # education3short: 
+  # education4short: 
+  # education5short: 
+  # education6short: 
