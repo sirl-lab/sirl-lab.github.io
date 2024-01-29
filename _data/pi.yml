@@ -8,7 +8,7 @@
   #researchgate: https://www.researchgate.net/
   #cv: cv/cv.pdf
   #Change the number below to the number of "educations" you have (up to 6)
-  number_educ: -1
+  number_educ: -3
   education1: "(2019) Ph.D. Computer Science & Engineering, IIIT Delhi"
   education2: "(2013) M.S. (Research), National Institute of Technology Rourkela"
   # education3: 
