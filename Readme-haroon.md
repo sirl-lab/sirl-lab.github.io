@@ -11,6 +11,9 @@
 ### Updating talks section 
  - Update the ref.bib file inside assets folder. Note that invited talks should contain the keyword, "Invited"
 
+### Updating publications
+ - Update the ref.bib file inside assets folder. 
+
 ## Datasets and Softwares
  - Update ref.bib file for this too.
 
