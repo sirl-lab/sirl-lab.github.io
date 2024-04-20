@@ -64,6 +64,21 @@ The dataset comprises photoplethysmography (PPG) data from 32 participants, obta
 </div>
 </div>
 
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Cough dataset</b></h4>
+<a href="https://osf.io/bzc67/" target="_blank"><button class="btn btn-info btn-sm">DATASET</button></a>
+<a href="https://arxiv.org/pdf/2401.17738.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<b>Authors:</b>
+<i>Pranay Jaiswal, Haroon R Lone.</i>
+The dataset contains cough samples collected via a Samsung smartwatch under controlled settings while doing different activities. Please read the paper for further details. 
+</div>
+</div>
+</div>
+
+
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
