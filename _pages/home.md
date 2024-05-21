@@ -11,59 +11,45 @@ Welcome to the Systems and Informatics Research Laboratory (SIRL) at the Indian 
 
 <div class="container">
 <div class="row">
-<center>
-<!--  first attempt
+ 
+<!--
 <script>
-var images = [
-    "/images/convocation2023.jpeg",
-    "/images/group-photo.jpg",
-    "/images/group-photo.jpg"
+var imageUrls = [
+  {% for image_url in site.image_urls %}
+    "{{ image_url }}",
+  {% endfor %}
 ];
-var currentIndex = 0;
-var imageElement = document.getElementById("image");
-var changeImageButton = document.getElementById("changeImageBtn");
-changeImageButton.addEventListener("click", function() {
-    currentIndex = (currentIndex + 1) % images.length;
-    imageElement.src = images[currentIndex];
-});
-</script>
-<img id="image" src="/images/group-photo.jpg" alt="Image" width="100%">
-<button id="changeImageBtn">Change Image</button>
- -->
 
- <!-- second attempt
-<script>
 function showNextImage() {
-  var totalImages = {{ site.image_urls | size }};
-  var currentIndex = {{ current_image_index }};
+  var totalImages = imageUrls.length;
+  var currentIndex = parseInt(document.getElementById('current_image_index').value, 10);
   
   if (currentIndex < totalImages - 1) {
     currentIndex++;
   } else {
-    currentIndex = 0; // Wrap around to the first image
+    currentIndex = 0;
   }
-  document.querySelector('img').src = '{{ site.image_urls[current_index] }}';
-  document.getElementById('current_image_index').value = currentIndex;
-  return currentIndex;
-  //{{ current_image_index }} = currentIndex; // Update current image index
-}
-</script>
 
+  document.querySelector('img').src = imageUrls[currentIndex];
+  document.getElementById('current_image_index').value = currentIndex;
+}
+
+</script>
+<center> 
 {% assign current_image_index = 0 %}
 {% if site.image_urls.size > 0 %}
-  <img src="{{ site.image_urls[current_image_index] }}" alt="Image" width="100%">
-  <button onclick="showNextImage()">Next</button>
-  <input type="hidden" id="current_image_index" value="{{ current_image_index }}">
-{% endif %}
- 
--->
- 
-<img src="{{ site.url }}{{ site.baseurl }}/images/group-photo.jpg" width="100%"/>
-<br/> Group Photo<br/>
+ <input type="hidden" id="current_image_index" value="{{ current_image_index }}">
+  <img src="{{ site.image_urls.first }}" alt="Image" width="100%" style="max-width:600px" >
 
-</center>
+ <button onclick="showNextImage()">Next</button>
+{% endif %}
+ </center>
+-->
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/lab-work-examples.png" width="100%"/>
+ 
+
 </div>
 </div>
 <br/>
-
  
