@@ -64,6 +64,21 @@ The dataset comprises photoplethysmography (PPG) data from 32 participants, obta
 </div>
 </div>
 
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Traffic signs dataset</b></h4>
+<a href="https://osf.io/fbxjs/" target="_blank"><button class="btn btn-info btn-sm">DATASET</button></a>
+<a href=" " target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>  -->
+<b>Authors:</b>
+<i>Rishabh Uikey, Haroon R Lone, Akshay Agarwal.</i>
+The dataset contains Indian traffic signboards capturing signs such as left turn, right turn, speed limit, stop, U-turn, no-parking, etc. Furthermore, annotations (height, width, depth, label, and bounding-box coordinates) are recorded in a separate file for each signboard. The dataset contains around 8512 sign boards.
+</div>
+</div>
+</div>
+
+
 
 <div class="jumbotron">
 <div class="row align-items-end">

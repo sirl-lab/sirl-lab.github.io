@@ -1,0 +1,10 @@
+
+<h2> Interns </h2>
+
+<div class='jumbotron'>
+Students from different parent institutes spent their summers at our lab. Generally, the goal is to equip such interns with new research skills and introduce them to research.   
+{% for member in site.data.interns limit:4 %}
+<li> <b>{{ member.name }} </b>: <i> {{ member.info }}</i> </li>
+{% endfor %}
+<h5><a href="{{ site.url }}{{ site.baseurl }}/allinterns.html">... see all Interns</a></h5>
+</div>

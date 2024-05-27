@@ -1,0 +1,10 @@
+
+<h2>Undergraduate Alumni</h2>
+
+<div class='jumbotron'>
+Following students completed 4 credits of their final year research work in the lab.
+{% for member in site.data.undergrad limit:4 %}
+<li> <b>{{ member.name }} </b>: <i> {{ member.info }}</i> </li>
+{% endfor %}
+<h5><a href="{{ site.url }}{{ site.baseurl }}/allundergrads.html">... see all Undergrad Alumni</a></h5>
+</div>

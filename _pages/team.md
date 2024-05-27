@@ -1,6 +1,6 @@
 ---
 title: "Team"
-layout: gridlay
+layout: team
 sitemap: false
 permalink: /team/
 ---
@@ -30,7 +30,7 @@ permalink: /team/
 {% endfor %}
 
 
-## Current Students and Postdocs
+## Current Members
 
 <div class='jumbotron'>
 {% assign number_printed = 0 %}
@@ -73,7 +73,7 @@ permalink: /team/
 </div>
 
 
-## Alumni
+## Graduate Alumni
 
 <div class="jumbotron">
 {% assign number_printed = 0 %}
@@ -109,4 +109,4 @@ permalink: /team/
 </div>
 
 
- 
+

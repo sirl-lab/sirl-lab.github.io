@@ -47,8 +47,6 @@ function showNextImage() {
 -->
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/lab-work-examples.png" width="100%"/>
- 
-
 </div>
 </div>
 <br/>
