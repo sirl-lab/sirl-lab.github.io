@@ -2,7 +2,7 @@
 title: "dataset"
 layout: gridlay
 sitemap: false
-permalink: /dataset/
+permalink: /datasets/
 ---
 
 <style>
@@ -34,7 +34,7 @@ iframe {
 }
 </style>
 
-<b> List of our publicly released datasets. Please cite the paper if you use any of these datasets.</b>
+<h6><b> List of our publicly released datasets. Please cite the paper if you use any of these datasets. </b></h6>
 
 <div class="jumbotron">
 <div class="row align-items-end">
@@ -46,6 +46,8 @@ iframe {
 <b>Authors:</b>
 <i>Nilesh K Sahu, Manjeet Yadav, Haroon R Lone.</i>
 The dataset comprises of speech audios and self-reported anxiety scores collected from 105 participants. 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/dataset-audio.png" width="100%"/>
 </div>
 </div>
 </div>
@@ -60,6 +62,8 @@ The dataset comprises of speech audios and self-reported anxiety scores collecte
 <b>Authors:</b>
 <i>Pranay Jaiswal, Nilesh K Sahu, Haroon R Lone.</i>
 The dataset comprises photoplethysmography (PPG) data from 32 participants, obtained using both a Samsung smartwatch and a Shimmer sensor. In addition to PPG data, the dataset also includes accelerometer data. Participants engaged in various activities such as sitting, standing, and walking during the data collection process. 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/dataset-ppg.png" width="100%"/>
 </div>
 </div>
 </div>
@@ -74,11 +78,27 @@ The dataset comprises photoplethysmography (PPG) data from 32 participants, obta
 <b>Authors:</b>
 <i>Rishabh Uikey, Haroon R Lone, Akshay Agarwal.</i>
 The dataset contains Indian traffic signboards capturing signs such as left turn, right turn, speed limit, stop, U-turn, no-parking, etc. Furthermore, annotations (height, width, depth, label, and bounding-box coordinates) are recorded in a separate file for each signboard. The dataset contains around 8512 sign boards.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/dataset-traffic-signs.jpeg" width="100%"/>
 </div>
 </div>
 </div>
 
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Rash driving patterns dataset (IMU)</b></h4>
+<a href="https://osf.io/4g87c/" target="_blank"><button class="btn btn-info btn-sm">DATASET</button></a>
+<a href=" " target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>  -->
+<b>Authors:</b>
+<i>Durgesh Mishra, Manoj Gulati, Haroon R Lone,</i>
+This dataset contains Inertial Measurement Unit (IMU) data collected from a smartphone in a running car. The IMU data includes acceleration along the X and Y axes and angular velocity around the Z axis of the car. The dataset captures signatures of five distinct rash driving patterns: Lane Weaving, Lane Swerving, Hard Braking, Hard Cornering, and Quick U-turn. The data spans five hours and is sampled at a rate of 100 Hz.
 
+ <img src="{{ site.url }}{{ site.baseurl }}/images/dataset-driving-patterns.jpeg" width="100%"/>
+</div>
+</div>
+</div>
 
 <div class="jumbotron">
 <div class="row align-items-end">
@@ -89,6 +109,8 @@ The dataset contains Indian traffic signboards capturing signs such as left turn
 <b>Authors:</b>
 <i>Pranay Jaiswal, Haroon R Lone.</i>
 The dataset contains cough samples collected via a Samsung smartwatch under controlled settings while doing different activities. Please read the paper for further details. 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/dataset-cough.png" width="100%"/>
 </div>
 </div>
 </div>
@@ -104,6 +126,8 @@ The dataset contains cough samples collected via a Samsung smartwatch under cont
 <b>Authors:</b>
 <i>Haroon R Lone, Pushpendra Singh, Amarjeet Singh.</i>
  I-BLEND consists of 52 months' worth of electrical energy data, sampled at one-minute intervals, gathered from both commercial and residential buildings within an academic institute campus in India. Additionally, it incorporates occupancy data for each building on the campus, sampled at a rate of every 10 minutes.
+
+ <img src="{{ site.url }}{{ site.baseurl }}/images/dataset-iblend.jpeg" width="100%"/>
 </div>
 </div>
 </div>
