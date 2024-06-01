@@ -45,7 +45,7 @@ iframe {
 <!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>  -->
 <b>Authors:</b>
 <i>Nilesh K Sahu, Manjeet Yadav, Haroon R Lone.</i>
-The dataset comprises of speech audios and self-reported anxiety scores collected from 105 participants. 
+The dataset contains audios and self-reported anxiety scores from 105 participants, recorded while they delivered anxiety-inducing speeches.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/dataset-audio.png" width="100%"/>
 </div>
@@ -67,6 +67,24 @@ The dataset comprises photoplethysmography (PPG) data from 32 participants, obta
 </div>
 </div>
 </div>
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>INFRAred Dataset for Occupancy Estimation and Localization (INFRADEL) </b></h4>
+<a href="https://osf.io/9u4yb/" target="_blank"><button class="btn btn-info btn-sm">DATASET</button></a>
+<a href=" " target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>  -->
+<b>Authors:</b>
+<i>Soumya Ranjan Sahoo, Haroon R Lone.</i>
+This dataset contains thermal images, including 2-channel gray-scale thermal images and converted RGB format. It captures a diverse range of scenarios, including both static and dynamic settings with varying levels of occupancy, making it ideal for developing and testing occupancy estimation algorithms. The dataset was collected in the classrooms of IISER Bhopal.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/dataset-occupancy.png" width="100%"/>
+</div>
+</div>
+</div>
+
+
 
 <div class="jumbotron">
 <div class="row align-items-end">

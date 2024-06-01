@@ -1,6 +1,7 @@
 - name:  Haroon R. Lone
   photo: haroon.png
-  info: Assistant Professor, Department of EECS, IISER Bhopal  
+  info: Assistant Professor, Department of EECS, IISER Bhopal, India (June 2021 - current) 
+  prev: Visiting Assistant Professor, University of South Dakota, USA (Aug. 2020 - June 2021)
   #coordinates: 203, 4D building, IISER Bhopal, Bhopal, India
   github: https://github.com/loneharoon
   email: haroon@iiserb.ac.in
@@ -8,9 +9,12 @@
   #researchgate: https://www.researchgate.net/
   #cv: cv/cv.pdf
   #Change the number below to the number of "educations" you have (up to 6)
-  number_educ: -3
-  education1: "(2019) Ph.D. Computer Science & Engineering, IIIT Delhi"
-  education2: "(2013) M.S. (Research), National Institute of Technology Rourkela"
+  number_educ: 3
+  education1: "Postdoc, University of Virginia, USA (2020)"
+  education2: "Ph.D., Computer Science & Engineering, IIIT Delhi (2019)"
+  education3: "M.S. (Research), National Institute of Technology Rourkela (2013)"
+
+  
   # education3: 
   # education4: 
   # education5: 
