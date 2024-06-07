@@ -40,9 +40,8 @@ To build scalable diagnostic solutions, we started with the discovery of biomark
 Related to this project, following sub-works have been completed
 
 - <a href = "https://dl.acm.org/doi/pdf/10.1145/3663671"> Wearable Technology Insights: Unveiling Physiological Responses During Three Different Socially Anxious Activities </a>
-- 
 - <a href = "https://dl.acm.org/doi/10.1145/3657245"> Leveraging acoustic and linguistic features captured during impromptu speech for anxiety detection </a>
-
+- <a href = "https://dl.acm.org/doi/10.1145/3662009.3662021"> Harnessing eye features for anxiety detection </a>
 - <a href = "https://ieeexplore.ieee.org/document/10356653"> Accuracy of smartwatches' PPG sensor for measuring heart rate</a>
 - <a href = "https://dl.acm.org/doi/10.1145/3411823"> Predicting subjective measures of SAD from sparsely collected mobile sensor data</a>
 
@@ -61,7 +60,7 @@ Buildings consume 40% of available energy, with up to 20% wasted due to various 
  -  <a href="https://dl.acm.org/doi/10.1145/3276774.3276797">A system for identifying anomalous appliances in residential buildings</a>
  -  <a href="https://linkinghub.elsevier.com/retrieve/pii/S0306261919300613">Suitability of Non-intrusive load monitoring (NILM) for anomaly detection</a>
  -  <a href="https://dl.acm.org/doi/10.1145/3137133.3137164">Consumer awareness</a>
- -  <a href="https://dl.acm.org/doi/10.1145/3137133.3137157"> Consumer identification for demand response</a>
+ -  <a href="https://dl.acm.org/doi/10.1145/3137133.3137157">Consumer identification for demand response</a>
  -  <a href="https://www.nature.com/articles/sdata201915">Four year energy dataset</a>
 </div>
 </div>
@@ -75,7 +74,7 @@ Buildings consume 40% of available energy, with up to 20% wasted due to various 
 Occupancy detection and counting are crucial to automate buildings’ lighting, heating, and cooling systems. However, most existing occupancy detection and counting techniques are underperforming or privacy-averse. In this work, we propose an adaptive methods for processing thermal images and evaluate several classification algorithms for occupancy counting. 
 
  - <a href="https://ieeexplore.ieee.org/document/10041292">Pre-liminary results show performance improvement</a>
- - Main results are under review.
+ -  Main results are in the press.
 </div>
 </div>
 
