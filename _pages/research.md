@@ -81,7 +81,7 @@ Occupancy detection and counting are crucial to automate buildings’ lighting, 
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Smart Transporatation</h4>
+<h4>Smart Transportation</h4>
 
 In the transportation domain, our goal is to leverage cheap smartphone sensors in Indian settings for (i) Automated traffic sign detection and identification - This is a challenging problem as Indian roads have a mix of traffic and advertisement boards in English and vernacular languages. (ii) Rash driving detection. Following are the accepted papers from this work.
  
