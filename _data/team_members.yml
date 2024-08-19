@@ -5,13 +5,17 @@
   #website: https://website.com
   #info: See <a href="www">openings</a> for more info
 
-- name: Nandigramam S. Harshit
-  photo: harshit.jpeg
-  info: M.S. (May 2023 - May 2024) 
+- name: Vimaleswar
+  photo: vimleswar.jpg
+  info: M.S. (May 2024 - May 2025) 
 
-- name: Manjeet Yadav
-  photo: manjeet.jpeg
-  info: M.S. (May 2023 - May 2024)  
+- name: Arya Adyasha
+  photo: arya.png
+  info: M.S. (May 2024 - May 2025)  
+
+- name: Aditya Sneh
+  photo: adityasneh.png
+  info: Research Associate
 
 - name: Aditya Mishra
   photo: aditya.jpeg

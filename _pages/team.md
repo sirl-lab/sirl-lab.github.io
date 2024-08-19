@@ -76,7 +76,7 @@ permalink: /team/
 </div>
 
 
-## Graduate Alumni
+## Alumni
 
 <div class="jumbotron">
 {% assign number_printed = 0 %}
