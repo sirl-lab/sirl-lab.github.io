@@ -39,7 +39,7 @@ To build scalable diagnostic solutions, we started with the discovery of biomark
 
 Related to this project, following sub-works have been completed
 
-- <a href = "https://dl.acm.org/doi/pdf/10.1145/3663671"> Wearable Technology Insights: Unveiling Physiological Responses During Three Different Socially Anxious Activities </a>
+- <a href = "https://dl.acm.org/doi/pdf/10.1145/3663671"> Unveiling Physiological Responses During Three Different Socially Anxious Activities </a>
 - <a href = "https://dl.acm.org/doi/10.1145/3657245"> Leveraging acoustic and linguistic features captured during impromptu speech for anxiety detection </a>
 - <a href = "https://dl.acm.org/doi/10.1145/3662009.3662021"> Harnessing eye features for anxiety detection </a>
 - <a href = "https://ieeexplore.ieee.org/document/10356653"> Accuracy of smartwatches' PPG sensor for measuring heart rate</a>
@@ -73,8 +73,8 @@ Buildings consume 40% of available energy, with up to 20% wasted due to various 
 
 Occupancy detection and counting are crucial to automate buildings’ lighting, heating, and cooling systems. However, most existing occupancy detection and counting techniques are underperforming or privacy-averse. In this work, we propose an adaptive methods for processing thermal images and evaluate several classification algorithms for occupancy counting. 
 
- - <a href="https://ieeexplore.ieee.org/document/10041292">Pre-liminary results show performance improvement</a>
- -  Main results are in the press.
+ - <a href="https://ieeexplore.ieee.org/document/10041292">Occupancy Estimation in Dense Settings</a>
+ -  <a href="https://dl.acm.org/doi/10.1145/3674829.3675059">Occupancy Estimation and Localization in Diverse Indoor Settings with Thermal Arrays</a>
 </div>
 </div>
 
@@ -86,8 +86,7 @@ Occupancy detection and counting are crucial to automate buildings’ lighting, 
 In the transportation domain, our goal is to leverage cheap smartphone sensors in Indian settings for (i) Automated traffic sign detection and identification - This is a challenging problem as Indian roads have a mix of traffic and advertisement boards in English and vernacular languages. (ii) Rash driving detection. Following are the accepted papers from this work.
  
  - <a href="https://ieeexplore.ieee.org/document/10562197">Indian Traffic Sign Detection and Classification Through a Unified Framework</a>
-
-
+  - <a href="https://dl.acm.org/doi/10.1145/3674829.3675069">Towards Safer Roads: Deep Learning for Rash Driving Detection using Smartphone Sensors Data</a>
 
 </div>
 </div>
