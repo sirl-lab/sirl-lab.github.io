@@ -38,7 +38,7 @@ Detecting Social Anxiety Disorder (SAD) scalably is challenging due to the absen
 To build scalable diagnostic solutions, we started with the discovery of biomarkers of SAD in Indian settings. We conducted a controlled study with university student participants. The participants performed different anxiety-provoking activities, and during the study period, we collected their ECG, PPG, and GSR with several sensors. Several significant findings from this project are still under review. 
 
 Related to this project, following sub-works have been completed
-
+- <a href = "https://arxiv.org/html/2403.20145v2"> Leveraging language models for creating concise patients' summary for doctors</a>
 - <a href = "https://dl.acm.org/doi/pdf/10.1145/3663671"> Unveiling Physiological Responses During Three Different Socially Anxious Activities </a>
 - <a href = "https://dl.acm.org/doi/10.1145/3657245"> Leveraging acoustic and linguistic features captured during impromptu speech for anxiety detection </a>
 - <a href = "https://dl.acm.org/doi/10.1145/3662009.3662021"> Harnessing eye features for anxiety detection </a>
@@ -47,7 +47,6 @@ Related to this project, following sub-works have been completed
 
 </div>
 </div>
-
 
 
 
