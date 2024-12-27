@@ -1,4 +1,4 @@
-- name:  Haroon R. Lone
+- name:  Haroon R. Lone  <a href="https://loneharoon.github.io/running.html" target="_blank"><button class="btn btn-info btn-sm">Run Status</button></a>
   photo: haroon.png
   info: Assistant Professor, Department of EECS, IISER Bhopal, India (June 2021 - current) 
   prev: Visiting Assistant Professor, University of South Dakota, USA (Aug. 2020 - June 2021)
@@ -6,7 +6,8 @@
   github: https://github.com/loneharoon
   email: haroon@iiserb.ac.in
   scholar: https://scholar.google.com/citations?user=OjujmUAAAAAJ&hl=en
-  
+ 
+
   #researchgate: https://www.researchgate.net/
   #cv: cv/cv.pdf
   #Change the number below to the number of "educations" you have (up to 6)
