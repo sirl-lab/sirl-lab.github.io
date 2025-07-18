@@ -5,6 +5,14 @@
   #website: https://website.com
   #info: See <a href="www">openings</a> for more info
 
+- name: Aditya Mishra
+  photo: adityaMishra.jpg
+  info: M.S. (May 2025 - May 2026) 
+
+- name: Parmar Pranali Ben
+  photo: pranali.jpg
+  info: M.S. (May 2025 - May 2026)    
+
 - name: Vimaleswar
   photo: vimleswar.jpg
   info: M.S. (May 2024 - May 2025) 
@@ -20,5 +28,9 @@
 - name: Shelke Anushka Sanjay
   photo: Anushka.jpeg
   info: Intern
+
+- name: Kalpande Sharmad
+  photo: 
+  info: U.G. researcher 
 
 
