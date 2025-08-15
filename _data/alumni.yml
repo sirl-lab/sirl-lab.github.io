@@ -1,14 +1,14 @@
 
 
-
-
 - name: Vimaleswar A
   photo: vimleswar.jpg
-  duration: M.S. (May 2024 - May 2025) 
+  duration: M.S. (May 2024 - May 2025)
+  Info: Researcher, IISER Bhopal 
 
 - name: Arya Adyasha
   photo: arya.png
-  duration: M.S. (May 2024 - May 2025)  
+  duration: M.S. (May 2024 - May 2025) 
+  Info: Researcher, IIT Kanpur  
 
 - name: Nandigramam S. Harshit
   photo: harshit.jpeg
@@ -51,4 +51,5 @@
 
 - name: Shelke Anushka Sanjay
   photo: Anushka.jpeg
-  duration: Visiting Research Intern (July. 2024 - July 2025)  
+  duration: Visiting Research Intern (July. 2024 - July 2025)
+  info: Researcher, IIT Indore  
