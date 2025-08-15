@@ -1,6 +1,15 @@
 
 
 
+
+- name: Vimaleswar A
+  photo: vimleswar.jpg
+  duration: M.S. (May 2024 - May 2025) 
+
+- name: Arya Adyasha
+  photo: arya.png
+  duration: M.S. (May 2024 - May 2025)  
+
 - name: Nandigramam S. Harshit
   photo: harshit.jpeg
   duration: M.S. (May 2023 - May 2024) 
@@ -9,7 +18,7 @@
 - name: Manjeet Yadav
   photo: manjeet.jpeg
   duration: M.S. (May 2023 - May 2024)  
-  info: Researcher, IIT Khargpur
+  info: Ph.D., IIT Jodhpur
 
 - name: Soumya R Sahoo
   photo: soumya.jpeg
@@ -19,7 +28,7 @@
 - name: Pranay Jaiswal
   photo: pranay.jpeg
   duration: M.S. (May 2022 - May 2023)
-  info: Researcher, IIT Ropar
+  info: Researcher, IIT KGP
 
 - name: Rishabh Uikey
   photo: rishabh.jpeg
@@ -35,3 +44,11 @@
   photo: durgesh.jpeg
   duration: Researcher (April 2022 - Nov 2022)
   info:  Researcher, DRDO
+
+- name: Aditya Sneh
+  photo: adityasneh.png
+  duration: Research Associate (July. 2024 - July 2025)  
+
+- name: Shelke Anushka Sanjay
+  photo: Anushka.jpeg
+  duration: Visiting Research Intern (July. 2024 - July 2025)  
