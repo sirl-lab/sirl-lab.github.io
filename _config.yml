@@ -30,7 +30,7 @@ nav_pages:
   - name: publications
   - name: research
   - name: datasets
-  - name: talks
+  - name: service
  # - name: teaching
 
 include:

@@ -36,6 +36,26 @@ iframe {
 
 <h6><b> List of our publicly released datasets. Please cite the paper if you use any of these datasets. </b></h6>
 
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Thermal images dataset</b></h4>
+<a href="https://osf.io/9z5a4/" target="_blank"><button class="btn btn-info btn-sm">DATASET</button></a>
+<a href="https://www.sciencedirect.com/science/article/pii/S2352648325000376" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>  -->
+<b>Authors:</b>
+<i>Arijit Samal, Haroon R Lone.</i>
+The dataset contains thermal images of study participants collected in dense and sparse settings. Dense settings correspond to classrooms and sparse correspond to discussion/research rooms. Please read paper's abstract for the details. 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/thermal-images.png" width="100%"/>
+</div>
+</div>
+</div>
+
+
+
+
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
