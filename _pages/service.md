@@ -30,7 +30,7 @@ permalink: /service/
 - Registration Chair, COMPASS 2025
 - TPC IEEE/ACM CHASE 2025
 - TPC ACM COMPASS 2025
-- Reviewer 2025 (CHI, IMWUT, AAAI, CHASE, COMPASS, IEEE JBHI)
+- Reviewer 2025 (CHI, IMWUT, AAAI, CHASE, COMPASS, IEEE JBHI, PLOS Mental Health)
 - Reviewer 2024 (MobileHCI, IMWUT, UbiComp/ISWC, IEEE Sensors Letters, PLOS Mental Health) 
 - Conducted NPTEL hands-on workshop on IoT, twice (july, December) at IISER Bhopal
 - Reviewer 2023 (IMWUT, IEEE Sensors Letters, PLOS Mental Health)
