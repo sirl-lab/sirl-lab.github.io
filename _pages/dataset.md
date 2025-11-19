@@ -69,7 +69,7 @@ The dataset captures physiological and self-reported responses from participants
 
 The knowledge dataset in the form of question answer (or Seeker Supporter) can be used for fine-tuning. It is derived exclusively from the openly licensed, publicly available textbooks. The dataset accompanies the paper titled, "An Offline Mobile Conversational Agent for Mental Health Support: Learning from Emotional Dialogues and Psychological Texts with Student-Centered Evaluation."
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/knowledge-dataset-Vimaleswar.png" width="100%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/Knowledge-dataset-Vimaleswar.png" width="100%"/>
 </div>
 </div>
 </div>
