@@ -57,6 +57,31 @@ The dataset captures physiological and self-reported responses from participants
 </div>
 </div>
 
+
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Night-time traffic signboard dataset</b></h4>
+<a href="https://adityamishra-ml.github.io/INTSD/" target="_blank"><button class="btn btn-info btn-sm">DATASET</button></a>
+<a href="https://arxiv.org/abs/2511.17183" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>  -->
+<b>Authors:</b>
+<i>Aditya Mishra, Akshay Aggarwal, Haroon R Lone.</i>
+
+The traffic signboard dataset consists of 6004 night-time images with 14044 instances of signboards spanning over a carefully curated set of 41 classes. The dataset spans across six different districts, includes both rural and urban signboards, and also features different lightening conditions based on the availibilty of street lights and different time of the night. The dataset also consist of four additional classes, which are not present in existing datasets.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/intsd.png" width="100%"/>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
