@@ -45,7 +45,7 @@ iframe {
 <div class="col-md-12 col-sm-12">
 <h4><b>Physiological dataset</b></h4>
 <a href="https://huggingface.co/datasets/SIR-Lab/MAD-Multimodal_Physiological_and_Self-Reported_Dataset_for_Anxiety_Research" target="_blank"><button class="btn btn-info btn-sm">DATASET</button></a>
-<a href=" " target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<a href="https://doi.org/10.1145/3770632" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 <!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>  -->
 <b>Authors:</b>
 <i>Nilesh Kumar Sahu, Snehil Gupta,  Haroon R Lone.</i>
@@ -75,9 +75,6 @@ The traffic signboard dataset consists of 6004 night-time images with 14044 inst
 </div>
 </div>
 </div>
-
-
-
 
 
 

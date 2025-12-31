@@ -40,6 +40,7 @@ permalink: /service/
 
 <div class="jumbotron">
 ### Institute service by PI
+- Data centre and HPC facility committe member (Dec. 2025 - present)
 - Cyber Security Committee member (Jan. 2023 - present)
 - Coordinator/Head Computer Center (Jan. 2022 - Jan. 2024)
 - DFAC member DSE department (July 2021 - July 2022) 
