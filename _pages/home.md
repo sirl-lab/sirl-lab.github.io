@@ -5,12 +5,11 @@ sitemap: false
 permalink: /
 ---
 
-
 Welcome to the Systems and Informatics Research Laboratory (SIRL) at IISER Bhopal.
 
-SIRL conducts interdisciplinary research at the intersection of sensing, signal processing, and machine learning. We deploy sensor systems in real-world environments to gather high-quality data, model the underlying dynamics using statistical and ML techniques, and design data-driven systems that are robust, scalable, and resource-efficient.
+SIRL conducts interdisciplinary research on human-centered, privacy-aware intelligent systems that operate on personal, mobile, and edge devices. Our work lies at the intersection of sensing, signal processing, machine learning, and human–computer interaction (HCI).
 
-Our ongoing projects span computational healthcare, intelligent transportation, and building informatics.
+We deploy sensor systems in real-world environments to capture rich human and contextual data, and develop resource-efficient, privacy-preserving learning frameworks—including on-device and federated approaches—that respect human constraints such as usability, trust, and data ownership. Through this, we aim to design robust, scalable, and socially responsible data-driven systems for applications in health, wellbeing, and smart environments.
 
 
 <div class="container">
