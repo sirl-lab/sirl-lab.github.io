@@ -25,11 +25,11 @@ permalink: /service/
 
 <div class="jumbotron">
 ### Community service by PI
-
 - Editor, PLOS Mental Health (2023 - present)
 - Registration Chair, COMPASS 2025
-- TPC IEEE/ACM CHASE 2025
-- TPC ACM COMPASS 2025
+- TPC IEEE/ACM CHASE 2025, 2026
+- TPC ACM COMPASS 2025, 2026
+- Reviewer 2026 (IMWUT, MobileHCI, CHASE)
 - Reviewer 2025 (CHI, IMWUT, AAAI, CHASE, COMPASS, IEEE JBHI, PLOS Mental Health)
 - Reviewer 2024 (MobileHCI, IMWUT, UbiComp/ISWC, IEEE Sensors Letters, PLOS Mental Health) 
 - Conducted NPTEL hands-on workshop on IoT, twice (july, December) at IISER Bhopal
@@ -40,6 +40,7 @@ permalink: /service/
 
 <div class="jumbotron">
 ### Institute service by PI
+- Member of various EECS department committes (DFAC, DUGC, DOC) (Jan. 2026 - present)
 - Data centre and HPC facility committe member (Dec. 2025 - present)
 - Cyber Security Committee member (Jan. 2023 - present)
 - Coordinator/Head Computer Center (Jan. 2022 - Jan. 2024)
