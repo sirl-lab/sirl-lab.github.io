@@ -1,3 +1,0 @@
-I am an Assistant Professor in the Department of Electrical Engineering and Computer Science at the Indian Institute of Science Education and Research Bhopal. I am an applied researcher working at the intersection of Internet-of-Things (IoT), Machine Learning, and Data Science. My research involves deploying sensors, collecting & analyzing data, and building models using machine learning and data science approaches. The overarching theme of my research is Urban Computing, focusing on Smart Healthcare, Energy Sustainability (smart buildings), and Smart Transportation.
-
-Previously, I did a Ph.D. from IIIT- Delhi under Pushpendra Singh and a Postdoc from the University of Virginia under Laura Barnes.
