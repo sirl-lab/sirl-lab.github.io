@@ -5,7 +5,7 @@ role:
 image: profiles/Vikaskumar.png
 image_circular: true
 email: vikas25@iiserb.ac.in
-website: wmivikas.github.io
+website: https://wmivikas.github.io
 ---
 
 -  Vikas joined Ph.D. program in August 2025
