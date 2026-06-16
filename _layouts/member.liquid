@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <div class="member-header">
+      {% if page.image %}
+        {% assign member_image_path = page.image | prepend: 'assets/img/' %}
+        {% if page.image_circular %}
+          {% assign member_image_class = 'img-fluid z-depth-1 rounded-circle member-photo' %}
+        {% else %}
+          {% assign member_image_class = 'img-fluid z-depth-1 rounded member-photo' %}
+        {% endif %}
+        {% include figure.liquid loading="eager" path=member_image_path class=member_image_class alt=page.name width="220" %}
+      {% endif %}
+      <div class="member-header-info">
+        <h1 class="post-title">{{ page.name }}</h1>
+        {% if page.role %}
+          <p class="member-role">{{ page.role }}</p>
+        {% endif %}
+        {% if page.email %}
+          <p class="member-contact"><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+        {% endif %}
+        {% if page.website %}
+          <p class="member-contact"><a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">{{ page.website }}</a></p>
+        {% endif %}
+        {% if page.linkedin %}
+          <p class="member-contact"><a href="{{ page.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        {% endif %}
+        {% if page.scholar %}
+          <p class="member-contact"><a href="{{ page.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+</div>

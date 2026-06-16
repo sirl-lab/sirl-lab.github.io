@@ -1,0 +1,133 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.profile_sections %}
+      {% for section in page.profile_sections %}
+        <h2>{{ section.title }}</h2>
+        {% if section.description %}
+          <p>{{ section.description }}</p>
+        {% endif %}
+
+        {% if section.data %}
+          {% assign section_members = site.data[section.data] %}
+        {% else %}
+          {% assign section_members = section.members %}
+        {% endif %}
+
+        {% if section.table_format %}
+          <div class="profile-tables-row">
+            {% assign mid = section_members | size | divided_by: 2 %}
+            {% for col in (1..2) %}
+              <div class="profile-table-col">
+                <table class="profile-table">
+                  <tbody>
+                    {% if col == 1 %}
+                      {% for profile in section_members limit: mid %}
+                        <tr>
+                          <td class="profile-table-name">
+                            {% if profile.link %}
+                              <a href="{{ profile.link }}" target="_blank" rel="noopener noreferrer">{{ profile.name }}</a>
+                            {% else %}
+                              {{ profile.name }}
+                            {% endif %}
+                          </td>
+                            {% if profile.department %}
+                              <td class="profile-table-department">{{ profile.department }}</td>
+                            {% endif %}
+                            <td class="profile-table-duration">{{ profile.duration }}</td>
+                        </tr>
+                      {% endfor %}
+                    {% else %}
+                      {% for profile in section_members offset: mid %}
+                        <tr>
+                          <td class="profile-table-name">
+                            {% if profile.link %}
+                              <a href="{{ profile.link }}" target="_blank" rel="noopener noreferrer">{{ profile.name }}</a>
+                            {% else %}
+                              {{ profile.name }}
+                            {% endif %}
+                          </td>
+                            {% if profile.department %}
+                              <td class="profile-table-department">{{ profile.department }}</td>
+                            {% endif %}
+                            <td class="profile-table-duration">{{ profile.duration }}</td>
+                        </tr>
+                      {% endfor %}
+                    {% endif %}
+                  </tbody>
+                </table>
+              </div>
+            {% endfor %}
+          </div>
+        {% else %}
+          <div class="profile-grid">
+            {% for profile in section_members %}
+              <div class="profile-grid-item">
+                {% if profile.username %}
+                  {% assign member_url = '/people/' | append: profile.username | append: '/' %}
+                  <a href="{{ member_url | relative_url }}" class="profile-grid-link">
+                {% elsif profile.link %}
+                  <a href="{{ profile.link }}" class="profile-grid-link" target="_blank" rel="noopener noreferrer">
+                {% endif %}
+                {% if profile.image %}
+                  {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                  {% if profile.image_circular %}
+                    {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                  {% else %}
+                    {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                  {% endif %}
+                  {% capture sizes %}(min-width: {{ site.max_width }}) 220px, (min-width: 768px) 25vw, (min-width: 576px) 33vw, 45vw{% endcapture %}
+                  {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                {% endif %}
+                {% if profile.name %}
+                  <p class="profile-grid-name">{{ profile.name }}</p>
+                {% endif %}
+                {% assign profile_role = profile.role | default: profile.position %}
+                {% if profile_role %}
+                  <p class="profile-grid-role">{{ profile_role }}</p>
+                {% endif %}
+                {% if profile.username or profile.link %}
+                  </a>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% unless forloop.last %}
+          <hr>
+        {% endunless %}
+      {% endfor %}
+    {% elsif page.profiles %}
+      {% for profile in page.profiles %}
+        <hr>
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+          {% endif %}
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>

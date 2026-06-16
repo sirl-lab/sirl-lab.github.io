@@ -1,0 +1,381 @@
+/*******************************************************************************
+ * Reusable component styles: Cards, captions, profiles, etc.
+ ******************************************************************************/
+
+// Checklist
+
+ul.task-list {
+  list-style-type: none; /* Remove bullets from all levels */
+}
+
+ul.task-list > li ul {
+  /* Nested lists within .task-list */
+  padding-inline-start: 1.5rem;
+}
+
+ul.task-list input[type="checkbox"] {
+  margin: 0.275rem 0.5rem 0.5rem -1rem;
+  vertical-align: middle;
+}
+
+// Math
+
+.equation {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+// Caption
+
+.caption {
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+// Card
+
+.card {
+  background-color: var(--global-card-bg-color);
+
+  .card-img {
+    width: 100%;
+    padding-top: 1.25rem;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-body {
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  }
+}
+
+// Profile
+
+.profile {
+  width: 100%;
+
+  .more-info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+.profile.float-right {
+  margin-left: 1rem;
+}
+
+.profile.float-left {
+  margin-right: 1rem;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-grid-item {
+  text-align: center;
+}
+
+.profile-grid-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    text-decoration: none;
+  }
+}
+
+.profile-grid-item figure,
+.profile-grid-item .figure {
+  margin-bottom: 0.5rem;
+}
+
+.profile-grid-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.profile-grid-name {
+  margin: 0.5rem 0 0 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.profile-grid-role {
+  margin: 0.2rem 0 0 0;
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+// Profile Table
+
+.profile-tables-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-table-col {
+  min-width: 0;
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+
+  th,
+  td {
+    padding: 0.4rem 0.5rem;
+    text-align: left;
+  }
+
+  tbody tr:hover {
+    background-color: var(--global-card-bg-color);
+  }
+}
+
+.profile-table-name {
+  font-weight: 500;
+  width: 50%;
+  word-break: break-word;
+
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-text-color);
+      border-bottom-style: solid;
+    }
+  }
+}
+
+.profile-table-department {
+  width: 35%;
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+}
+
+.profile-table-duration {
+  width: 15%;
+  color: var(--global-text-color-light);
+  font-family: monospace;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .profile-tables-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 30%;
+
+    .address {
+      p {
+        display: block;
+      }
+    }
+  }
+}
+
+// CV
+
+.cv {
+  margin-bottom: 40px;
+
+  .card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+
+    .list-group-item {
+      background-color: inherit;
+      border-color: var(--global-divider-color);
+
+      .badge {
+        color: var(--global-card-bg-color) !important;
+        background-color: var(--global-theme-color) !important;
+      }
+    }
+  }
+}
+
+.table-cv-map {
+  background-color: transparent;
+  border: none;
+  color: var(--global-text-color);
+}
+
+.date-column {
+  width: 75px;
+  transform: translateX(-15px) translateY(-5px);
+}
+
+// Projects
+
+.projects {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    .card-title {
+      font-size: 1rem;
+    }
+
+    img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+  }
+
+  .col {
+    padding-bottom: 1rem;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
+// Repositories
+
+@media (min-width: 768px) {
+  .repo {
+    max-width: 50%;
+  }
+}
+
+// Social (bottom)
+
+.social {
+  text-align: center;
+
+  .contact-icons {
+    font-size: 4rem;
+
+    a {
+      img {
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-bottom: 1rem;
+      }
+
+      svg {
+        width: 3.5rem;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 3.5rem;
+          height: 3.5rem;
+        }
+      }
+
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+
+  .contact-note {
+    font-size: 0.8rem;
+  }
+}
+
+.wechat-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wechat-modal > img {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 33%;
+  max-width: 400px;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 400px) {
+  .wechat-modal > img {
+    width: 100%;
+  }
+}
+
+// Distill
+
+.distill {
+  a:hover {
+    border-bottom-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+// diff2html
+
+.d2h-diff-table {
+  position: relative;
+}

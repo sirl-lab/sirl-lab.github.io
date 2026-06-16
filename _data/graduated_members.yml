@@ -1,0 +1,63 @@
+# Graduated / former lab members
+# Fields: name, role (duration + current position), image (relative to assets/img/), image_circular, link (optional)
+
+- name: Aditya Mishra
+  username: aditya-mishra
+  role: MS student (2026)
+  image: profiles/adityaMishra.jpg
+  image_circular: true
+
+- name: Parmar Pranali Ben
+  username: parmar-pranali-ben
+  role: MS student (2026)
+  image: profiles/pranali.jpg
+  image_circular: true
+
+- name: Vimaleswar A
+  username: vimaleswar-a
+  role: MS Student (2025)
+  image: profiles/vimleswar.jpg
+  image_circular: true
+
+- name: Arya Adyasha
+  username: arya-adyasha
+  role: MS Student (2025)
+  image: profiles/arya.png
+  image_circular: true
+
+- name: N. S. Harshit
+  username: nandigramam-s-harshit
+  role: MS Student (2024)
+  image: profiles/harshit.jpeg
+  image_circular: true
+
+- name: Manjeet Yadav
+  username: manjeet-yadav
+  role: MS Student (2024)
+  image: profiles/manjeet.jpeg
+  image_circular: true
+
+- name: Soumya R Sahoo
+  username: soumya-r-sahoo
+  role: MS Student (2023)
+  image: profiles/soumya.jpeg
+  image_circular: true
+
+- name: Pranay Jaiswal
+  username: pranay-jaiswal
+  role: MS Student (2023)
+  image: profiles/pranay.jpeg
+  image_circular: true
+
+- name: Rishabh Uikey
+  username: rishabh-uikey
+  role: MS Student (2023)
+  image: profiles/rishabh.jpeg
+  image_circular: true
+
+- name: Varun Dhankar
+  username: varun-dhankar
+  role: MS Student (2023)
+  image: profiles/varun.jpeg
+  image_circular: true
+

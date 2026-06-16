@@ -1,0 +1,38 @@
+# Current lab members
+# Fields: name, role, image (relative to assets/img/), image_circular, link (optional)
+
+- name: Haroon R Lone
+  username: haroon-r-lone
+  role: PI
+  image: profiles/haroon.png
+  image_circular: true
+
+- name: Nilesh K Sahu
+  username: nilesh-k-sahu
+  role: PhD student
+  image: profiles/nilesh.jpeg
+  image_circular: true
+
+- name: Vikas Kumar
+  username: vikas-kumar
+  role: PhD student
+  image: profiles/Vikaskumar.png
+  image_circular: true
+
+- name: Kalpande Sharmad
+  username: kalpande-sharmad
+  role: MS student
+  image: profiles/sharmed.jpeg
+  image_circular: true
+
+- name: M Akmal
+  username: mohd-akmal
+  role: Research Associate
+  image: profiles/mAkmal.jpg
+  image_circular: true
+
+- name: Anish Kumar Jain
+  username: anish-kumar-jain
+  role: Research Associate
+  image: profiles/AnishKumar.jpg
+  image_circular: true 

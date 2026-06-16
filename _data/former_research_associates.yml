@@ -1,0 +1,26 @@
+  - name: Aditya Sneh
+    username: aditya-sneh
+    role: RA Alumni (2025)
+    image: profiles/adityasneh.png
+    image_circular: true
+
+  - name: Shelke Anushka Sanjay
+    username: shelke-anushka-sanjay
+    role: RA Alumni (2025)
+    image: profiles/Anushka.jpeg
+    image_circular: true
+
+  - name: Durgesh Mishra
+    username: durgesh-mishra
+    role: RA Alumni (2023)
+    image: profiles/durgesh.jpeg
+    image_circular: true
+
+  - name: # dummy entry created so that formatting works
+    role:  
+    #image: profiles/durgesh.jpeg
+    image_circular: true
+  - name: 
+    role: 
+    #image: profiles/durgesh.jpeg
+    image_circular: true      

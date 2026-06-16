@@ -1,0 +1,152 @@
+---
+layout: page
+title: news
+permalink: /news/
+news_items:
+
+  - date: June, 2026
+    headline: Paper co-authored by Vikas and Nilesh got accepted at MobileHCI 2026. Congratulations, Vikas and Nilesh! 
+
+  - date: April, 2026
+    headline: Aditya Mishra, has been selected for the prestigious Heidelberg Laureate Forum (HLF), 2026. He received a travel grant from the HLF too. Congratulations, Aditya! 
+
+  - date: March, 2026
+    headline: Nilesh's work got accepted at ACM Interactive Health, 2026. Congratulations, Nilesh!
+
+  - date: February, 2026
+    headline: Nilesh's work got accepted at IEEE TAFFC. Congratulations, Nilesh!
+
+  - date: December, 2025
+    headline: Nilesh's work got accepted at IMWUT. This work releases his first collected physiological dataset. Congratulations, Nilesh!
+
+  - date: December, 2025
+    headline: The lab receieved an ANRF ARG grant for three years. Thank you, ANRF.
+
+  - date: December, 2025
+    headline: Vimaleswar and Prabhu Nandan Sahu receieved registration waivers and travel grants from IJCNLP-AACL for their conference attendance.
+
+  - date: November, 2025
+    headline: Arys's second paper out of her master's thesis got accepted at PLOS Mental Health. Congratulations, Arya.
+
+  - date: October, 2025
+    headline: Nilesh received Google Ph.D. Fellowship award. Congratulations, Nilesh.
+
+  - date: October, 2025
+    headline: Vimaleswar's work got accepted at IJCNLP-AACL 2025 conference. Congratulations - Vimaleswar, Prabhu, and Nilesh.
+
+  - date: October, 2025
+    headline: Sharmad received travel grant award from the UbiComp/ISWC community to present his paper at UbiComp/ISWC 2025, Finland. Congratulations.
+
+  - date: September, 2025
+    headline: Nilesh's paper got accepted at IMWUT. Congratulations!
+
+  - date: August, 2025
+    headline: Vikas Kumar joined the lab as a Ph.D. student. Welcome to the lab!
+
+  - date: July, 2025
+    headline: After a hiatus of about a year, Sharmad's (an undergraduate student) work on ECG analysis was accepted at ISWC 2025.
+
+  - date: July, 2025
+    headline: Haroon presented ``Smartphones, Sensors, and Saving Lives- How AI is Transforming Mental Healthcare" in the faculty development programme at LNCT Bhopal.
+
+  - date: June, 2025
+    headline: Arya received finacial support for her CogSci paper registration from the CogSci community. Super thankful!
+
+  - date: April, 2025
+    headline: My postdoctoral work at UVA was accepted in IEEE Transactions on Affective Computing. I was part of the study design team during 2019 for this paper.
+
+  - date: April, 2025
+    headline: Congratulations to Arya on her paper acceptance at CogSci 2025 conference. Just straight accept in the first attempt without any revision. This work is a part of her Master's thesis.
+
+  - date: March, 2025
+    headline: Congratulations to Arijit on his paper acceptance at Smart Health Journal. This work was done during his BS program.
+
+  - date: March, 2025
+    headline: Congratulations to Nilesh on his paper acceptance at ACM COMPASS 2025.
+
+  - date: December, 2024
+    headline: Nilesh received the third prize in the poster presentation at IndoML 2024. Congratulations.
+
+  - date: December, 2024
+    headline: In the outreach program of the IISER Bhopal, Haroon presented ``What is Computer Science (SC) Research?'' to around 120 students of Sant Hirdaram Girls College, Bairagarh, and Oriental Institute of Science and Technology on December 17 and 18.
+
+  - date: November, 2024
+    headline: Congratulations to Nilesh and Manjeet for their paper acceptance at COLING 2025. The paper leverages language models for generating automated patient screening summaries for doctors.
+
+  - date: October, 2024
+    headline: Haroon invited to serve as a reviewer of ACM CHI 2025 and a TPC member of ACM CHASE 2025.
+
+  - date: October, 2024
+    headline: Haroon was invited to give a talk on ``Building Blocks of IoT - Creating Real-World Data Collection Applications" in Malaviya Mission Teacher Training Programme at IISER Bhopal.
+
+  - date: July, 2024
+    headline: Durgesh, Nilesh, and Soumya receieved travel grants from ACM COMPASS 2024. They will be presenting their research papers at the conference.
+
+  - date: 12 June, 2024
+    headline: Nilesh receieved the Gary Marsden travel award for attending ACM COMPASS. He will be presenting his ACM JCSS research papers at the COMPASS 2024. Congratulations to Nilesh!
+
+  - date: 25 May, 2024
+    headline: Nilesh and Harshit receieved travel grants for attending ACM MobiSys 2024 at Tokyo, Japan. Congratulations.
+
+  - date: 14 May, 2024
+    headline: Congratulations to Rishabh for his paper acceptance at the IEEE Transactions on Intelligent Transport Systems.
+
+  - date: 30 April, 2024
+    headline: Congratulations to Durgesh and Soumya for their paper acceptance at ACM COMPASS 2024.
+
+  - date: 26 April, 2024
+    headline: The lab receieved a three year research grant from ICMR. Thank you, ICMR.
+
+  - date: 20 April, 2024
+    headline: Congratulations to Harshit and Nilesh for paper acceptance at Body-Centric Computing Systems, Colocated with ACM MobiSys 2024.
+
+  - date: 12 April, 2024
+    headline: Congratulations to Nilesh for his paper acceptance at ACM Journal on Computing and Sustainable Societies.
+
+  - date: 1 April, 2024
+    headline: Congratulations to Nilesh and Manjeet for their paper acceptance at ACM Journal on Computing and Sustainable Societies.
+
+  - date: 6 Feb, 2024
+    headline: Manjeet got selected for the CHANAKYA Fellowship.
+
+  - date: 27 January, 2024
+    headline: Aditya's work on energy prediction got accepted at Energy & Buildings Journal. Congratulations!
+
+  - date: December, 2023
+    headline: Haroon gave an invited talk on ``Leveraging IoT for controlling and monitoring Electric Vehicles at LNCT College Bhopal.
+
+  - date: December, 2023
+    headline: The lab conducted 6 days NPTEL workshop on IoT at IISER Bhopal.
+
+  - date: December, 2023
+    headline: Congrats Pranay and Nilesh. A paper got accepted at IEEE Sensors Letters.
+
+  - date: November, 2023
+    headline: Haroon selected as an editorial board member of PLOS Mental Health.
+
+  - date: October, 2023
+    headline: A poster and a student design consortium got accepted at IndiaHCI 2023.
+
+  - date: July, 2023
+    headline: Manjeet and Harshit joined the lab for their Master's thesis.
+
+  - date: July, 2023
+    headline: The lab conducted a 6 day long Hands-on workshop on Internet-of-Things.
+
+  - date: July, 2023
+    headline: Pranay joined IIT Ropar as an Research Associate.
+
+  - date: April, 2023
+    headline: Soumaya received multiple Ph.D. offers from foreign universities.
+
+  - date: November, 2022
+    headline: Soumaya's work on occupancy detection got accepted at Comsnets 2023.
+
+  - date: August, 2022
+    headline: Durgesh joined the lab.
+
+  - date: July, 2022
+    headline: Rishabh, Varun, Pranay, and Soumya joined the lab.
+---
+
+{% include news.liquid %}
